@@ -1,0 +1,255 @@
+.main-color {
+    color: #470a20;
+}
+
+.school-name {
+    color: #eec716;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Top Header CSS Starts here */
+#top-header {
+    background-color: #470a20;
+    height: 30px;
+}
+
+/* Top Header CSS Ends here */
+
+/* NavBar Css Starts here */
+.navbar {
+    background-color: #470a20 !important;
+}
+
+.navbar .navbar-brand h4 {
+    color: #eec716;
+}
+
+.nav-link {
+    color: #eec716;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: #9d9365;
+}
+
+.home {
+    border-bottom: 3px solid #eec716;
+}
+
+.student-info {
+    /* border-bottom: 3px solid #eec716; */
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 0;
+}
+
+/* NavBar Css Ends here */
+
+/* Slider Css starts here */
+
+#slider {
+    background-color: var(--);
+    height: 83vh;
+}
+
+#slider .container #carouselExampleCaptions {
+    height: 83vh;
+}
+
+#slider
+    .container
+    #carouselExampleCaptions
+    .carousel-inner
+    .slider-button
+    .carousel-control-prev {
+    width: 55px;
+}
+
+#slider
+    .container
+    #carouselExampleCaptions
+    .carousel-inner
+    .slider-button
+    .carousel-control-prev-icon {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+#slider
+    .container
+    #carouselExampleCaptions
+    .carousel-inner
+    .slider-button
+    .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+}
+
+#slider
+    .container
+    #carouselExampleCaptions
+    .carousel-inner
+    .slider-button
+    .carousel-control-next {
+    width: 55px;
+}
+
+#slider .container .carousel-inner .row .col-md-4 {
+    padding-left: 150px;
+}
+
+#slider .container .carousel-inner .slider-center {
+    text-align: justify;
+}
+
+#slider .container .carousel-inner .slider-center .slider-content {
+    /* background-color: #66fcf1; */
+    height: 240px;
+    width: 400px;
+    left: 25px;
+    margin: 150px 0px;
+}
+
+#slider .container .carousel-inner .carousel-item .row .col-md-4 {
+    width: 455px;
+}
+
+#slider
+    .container
+    .carousel-inner
+    .carousel-item
+    .row
+    .col-md-4
+    .slider-content
+    .slider-image
+    .sliders {
+    height: 240px;
+    width: 450px;
+    margin: 85px 0;
+}
+
+#slider
+    .container
+    .carousel-inner
+    .carousel-item
+    .row
+    .col-md-4
+    .slider-content
+    .slider-image
+    .sliders3 {
+    height: 233px;
+    width: 407px;
+    margin: 85px 0;
+}
+
+#slider .container .carousel-inner .slider-center .slider-image {
+    width: 440px;
+    padding-top: 55px;
+}
+
+#slider .container .carousel-inner .slider-center .slider-content h1 span {
+    color: var(--dec-color);
+}
+
+#slider .container .carousel-inner .slider-center .slider-content p {
+    color: var(--white);
+    opacity: 0.8;
+    text-align: justify;
+}
+
+#slider .container .carousel-inner .slider-center .slider-content .button a {
+    background-color: var(--dec-color);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#slider
+    .container
+    .carousel-inner
+    .slider-center
+    .slider-content
+    .button
+    a:hover {
+    background-color: var(--top-header-bg);
+    color: var(--white);
+}
+
+/* Slider Css ends here */
+
+/* Breadcrumbs CSS Starts here */
+#breadcrumb .container {
+    margin: 0;
+    padding: 0;
+}
+
+#breadcrumb .box {
+    height: 340px;
+    width: 100%;
+    background-color: #e4a5a5;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 40vh;
+}
+/* Breadcrumbs CSS Ends here */
+
+/* Class Box CSS Starts here */
+#class-box .container-ji {
+    padding-left: 160px;
+}
+
+#class-box .card-body {
+    border: 1px solid #000;
+    width: 222px;
+    background-color: #470a20;
+    color: #eec716;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#class-box .card-body:hover {
+    box-shadow: 4px 6px 6px rgb(135 135 48);
+    background-color: #eec716;
+    color: #470a20;
+}
+/* Class Box CSS Ends here */
+
+/* Search CSS Starts here */
+#search {
+    min-height: 25vh;
+}
+
+#search form {
+    margin: 0 133px;
+}
+
+#search form .search-area {
+    font-weight: bold;
+    outline: none;
+    height: 40px;
+    width: 1035px;
+}
+
+#search form .search-area:focus {
+    transform: scale(1.012);
+}
+
+#search form .search-button {
+    height: 40px;
+    margin-left: 5px;
+}
+/* Search CSS Ends here */
+
+/* Table CSS Starts here */
+#table {
+    min-height: 25vh;
+}
+/* Table CSS Ends here */
