@@ -26,7 +26,7 @@ class SiteController extends Controller
     public function getClass(){
 
         $data = [
-            'studentInfo' => studentInfo::where('deleted_at', null)->get()
+            'studentInfo' => studentInfo::where('deleted_at', null)->orderby('class', 'asc')->orderByRaw("CASE WHEN section = 'sun' THEN 1 WHEN section = 'moon' THEN 2 WHEN section = 'star' THEN 3 END")->get()
         ];
 
         return view('site.class', $data);
