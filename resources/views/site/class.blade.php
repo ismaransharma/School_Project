@@ -52,8 +52,8 @@
                 <tr class="text-center">
                     <td>{{ $loop->iteration }}</td>
                     <td>{{ $student->student_name }}</td>
-                    <td class="text-uppercase">{{ $student->class }}</td>
-                    <td>{{ $student->section }}</td>
+                    <td>{{ $student->class }}</td>
+                    <td class="text-uppercase">{{ $student->section }}</td>
                     <td>{{ $student->father_name }}</td>
                     <td>{{ $student->mother_name }}</td>
                     <td>{{ $student->father_contact . ',' . $student->mother_contact }}</td>
