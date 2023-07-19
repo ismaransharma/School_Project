@@ -53,7 +53,7 @@ class SiteController extends Controller
     public function getStudentManage(){
         $data = [
             'schoolClasses' => SchoolClass::where('deleted_at', null)->orderBy('class', 'asc')->pluck('class')->unique()->toArray(),
-            'StudentInfos' => StudentInfo::where('deleted_at', null)->get()
+            'StudentInfos' => StudentInfo::where('deleted_at', null)->orderby('class', 'asc')->orderByRaw("CASE WHEN section = 'sun' THEN 1 WHEN section = 'moon' THEN 2 WHEN section = 'star' THEN 3 END")->get()
 
         ];
     
